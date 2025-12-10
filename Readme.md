@@ -10,4 +10,4 @@ Objective Reasoned Core Texts.
 - 正在编写。
 - 仅作展示用。
 
-* 中文：[[zh-CN]]
+* 中文：[客观理智文档目录](zh-CN/目录.md)
