@@ -1,1 +1,0 @@
-# Objective Reasoned Structure Cognitive Theory

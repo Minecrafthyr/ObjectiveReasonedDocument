@@ -1,13 +1,11 @@
-Used [Foam](https://marketplace.visualstudio.com/items?itemName=foam.foam-vscode).
+# Objective Reasoned Document
 
-Objective Reasoned Core Texts.
-- Currently only Chinese, other languages pages are empty.
-- Work in progress.
-- For show only now.
+Currently only Chinese.
 
-客观理智核心文本。
-- 目前仅有中文，其他语言的页面是空的。
-- 正在编写。
-- 仅作展示用。
+Work in progress and not ready now. However, pull requests are welcomed.
 
-* 中文：[客观理智文档目录](zh-CN/目录.md)
+Used [VSCode](https://code.visualstudio.com/) + [Foam](https://marketplace.visualstudio.com/items?itemName=foam.foam-vscode). If following content is `content-inline![[Objective Reasoned]]` means you doesn’t installed it yet.
+
+* content-inline![[Objective Reasoned]]
+
+> 中文：[[客观理智]]

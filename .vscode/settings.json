@@ -1,8 +1,12 @@
-{"[markdown]": {
-  "editor.quickSuggestions": {
-    "other": "on",
-    "comments": "off",
-    "strings": "off"
-  }
-}
+{
+  "[markdown]": {
+    "editor.quickSuggestions": {
+      "other": "on",
+      "comments": "off",
+      "strings": "off"
+    }
+  },
+  "markdown.styles": [
+    "common.css"
+  ]
 }
