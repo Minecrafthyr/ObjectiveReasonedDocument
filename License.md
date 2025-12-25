@@ -9,7 +9,7 @@
 
 对于没有特别标注的内容，采用[CC-BY-NC-4.0](https://creativecommons.org/licenses/by-nc/4.0/)许可证。
 
-Legal Code: [txt](Licenses/CC-BY-NC-4.0.txt)
+Legal Code: [Plain Text](legal-code/CC-BY-NC-4.0.txt) [Markdown](legal-code/CC-BY-4.0.md)
 
 ## 定义
 

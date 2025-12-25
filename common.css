@@ -1,5 +1,6 @@
 dot {
   position: relative;
+
 }
 dot::after {
   position: absolute;

@@ -8,5 +8,6 @@
   },
   "markdown.styles": [
     "common.css"
-  ]
+  ],
+  "foam.preview.embedNoteType": "content-inline"
 }
