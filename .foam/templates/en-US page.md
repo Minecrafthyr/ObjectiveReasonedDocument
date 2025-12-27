@@ -2,7 +2,7 @@
 tags: [${1}]
 ---
 
-< [[${2:客观理智}]]
+<span style="font-size:smaller;display:block">\< [[${2:客观理智}]]
 
 # ${3}
 

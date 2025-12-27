@@ -1,10 +1,54 @@
 dot {
   position: relative;
-
 }
 dot::after {
   position: absolute;
   top: 0.65em;
   left: 0;
   content: "・";
+}
+/*  多语言链接（Interlanguage links） */
+.il {
+  float: right;
+  max-width: 60%;
+  display: block;
+  z-index: 10000;
+  position: relative;
+}
+
+.hlist ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+.hlist li {
+  display: inline;
+}
+
+.hlist li:not(:last-child) {
+  padding-right: 0.286em;
+}
+
+.hlist li:not(:last-child)::after {
+  content: "";
+  display: inline-block;
+  position: relative;
+  left: 0.286em;
+  bottom: 0.214em;
+  background-color: light-dark(white, black);
+  height: 3px;
+  width: 3px;
+}
+
+.hlist li > ul li:first-child::before {
+  content: "（";
+}
+
+.hlist li > ul li:last-child::after {
+  content: "）";
+}
+
+.hlist li li li {
+  font-size: x-small;
 }
