@@ -1,12 +1,22 @@
 dot {
   position: relative;
 }
+
 dot::after {
   position: absolute;
   top: 0.65em;
   left: 0;
   content: "・";
 }
+
+backlink {
+  font-size: smaller;
+  display: block;
+}
+backlink::before {
+  content: "<";
+}
+
 /*  多语言链接（Interlanguage links） */
 .il {
   float: right;
@@ -14,6 +24,10 @@ dot::after {
   display: block;
   z-index: 10000;
   position: relative;
+}
+
+q {
+  font-size: 125%;
 }
 
 .hlist ul {
@@ -41,11 +55,11 @@ dot::after {
   width: 3px;
 }
 
-.hlist li > ul li:first-child::before {
+.hlist li>ul li:first-child::before {
   content: "（";
 }
 
-.hlist li > ul li:last-child::after {
+.hlist li>ul li:last-child::after {
   content: "）";
 }
 
