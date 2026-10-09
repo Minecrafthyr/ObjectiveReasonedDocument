@@ -1,20 +1,43 @@
-dot {
-  position: relative;
+body {
+    font-family: Iosevka, 'Droid Sans Mono', monospace;
 }
 
-dot::after {
-  position: absolute;
-  top: 0.65em;
-  left: 0;
-  content: "・";
+ul, ol {
+  /* padding-left: 40px; 传统方式 */
+  padding-inline-start: 1em; /* 推荐：考虑文本方向 */
+}
+
+dot {
+  text-emphasis: dot;
+  text-emphasis-position: under;
 }
 
 backlink {
   font-size: smaller;
   display: block;
 }
+
 backlink::before {
-  content: "<";
+  content: "< ";
+}
+
+/* 不缩进 */
+.no-indent {
+  text-indent: 0em;
+}
+/* 透明字体 */
+.transparent {
+  color: transparent;
+}
+/* 顶注 */
+hatnote {
+  padding-left: 2em;
+}
+redirect {
+  font-size: larger;
+}
+redirect::before{
+  content: "↪︎";
 }
 
 /*  多语言链接（Interlanguage links） */
@@ -28,6 +51,19 @@ backlink::before {
 
 q {
   font-size: 125%;
+  padding-left: 0.5em;
+}
+
+details {
+  border: 1px dashed;
+}
+
+chinese-layout p:not(blockquote p) {
+  text-indent: 2em;
+  margin: 0;
+}
+chinese-layout p {
+  margin: 0.5em;
 }
 
 .hlist ul {
